@@ -6,3 +6,5 @@ services:
     language: dotnet
     project: .\src\eShop.AppHost\eShop.AppHost.csproj
     host: containerapp
+    infra:
+      deploymentScope: resourceGroup
